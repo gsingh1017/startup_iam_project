@@ -29,6 +29,7 @@ Current Setup:
 
 
 Current Infrastructure:
+
 ![Initial Infrastructure](Initial_Architecture.png)
 
 
@@ -43,18 +44,18 @@ Team Structure & Access Needs: 
 
 Task: 
 
-1. Create their Architecture
+1 - Create their Architecture
 - Create a architecture diagram showcasing their current infrastructure
 
 
-2. Secure the Root Account
+2 - Secure the Root Account
 
 - Enable MFA
 - Stop using it for daily operations
 - Store credentials securely
 
 
-3. Create IAM Users and Groups
+3 - Create IAM Users and Groups
 
 - Developer group & users
 - Operations group & users
@@ -62,34 +63,34 @@ Task:
 - Analyst group & users
 
 
-4. Set Up Security Requirements
+4 - Set Up Security Requirements
 
 - Enable MFA for all users
 - Create a strong password policy
 - Ensure users can only access what they need
 
 
-5. Implement These Permissions
+5 - Implement These Permissions
 
-Developers:
+1. Developers:
 
-- EC2 management
-- S3 access for application files
-- CloudWatch logs viewing
+    - EC2 management
+    - S3 access for application files
+    - CloudWatch logs viewing
 
-Operations:
+2. Operations:
 
-- Full EC2, CloudWatch access
-- Systems Manager access
-- RDS management
+    - Full EC2, CloudWatch access
+    - Systems Manager access
+    - RDS management
 
-Finance:
+3. Finance:
 
-- Cost Explorer
-- AWS Budgets
-- Read-only resource access
+    - Cost Explorer
+    - AWS Budgets
+    - Read-only resource access
 
-Analysts:
+4. Analysts:
 
-- Read-only S3 access
-- Read-only database access
+    - Read-only S3 access
+    - Read-only database access
