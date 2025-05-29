@@ -32,11 +32,6 @@ resource "aws_iam_group_policy" "developer_group_policy" {
         },
         {
             "Effect": "Allow",
-            "Action": "cloudwatch:*",
-            "Resource": "*"
-        },
-        {
-            "Effect": "Allow",
             "Action": "autoscaling:*",
             "Resource": "*"
         },
