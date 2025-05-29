@@ -4,8 +4,7 @@ Deliverables:
 
 Access my detailed breakdown on Medium [here](https://medium.com/@gurniksingh/project-ditching-the-aws-root-account-in-a-live-startup-environment-90afabacf58a)
 
-Updated Architecture: 
-![Updated_Architecture.png]
+![Updated Architecture:](Updated_Architecture.png)
 
 ----------------------------------------------------------------
 
@@ -28,8 +27,7 @@ Current Setup:
 - AWS credentials shared via team chat
 
 
-Current Infrastructure:
-![Initial_Architecture.png]
+![Current Infrastructure](Initial_Architecture.png)
 
 
 Team Structure & Access Needs: 
