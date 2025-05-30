@@ -4,21 +4,20 @@ Deliverables:
 
 Access my detailed breakdown on Medium [here](https://medium.com/@gurniksingh/project-ditching-the-aws-root-account-in-a-live-startup-environment-90afabacf58a)
 
+
 Updated Architecture:
+
 ![Updated Architecture](Updated_Architecture.png)
 
 ----------------------------------------------------------------
 
 Project Brief: 
 
-You are a Cloud Engineer Consultant, working with StartupCo, a fast-growing tech startup that recently launched their first product - a fitness tracking application.
-
-They've been using AWS for three months, initially setting up their infrastructure quickly to meet launch deadlines.
+StartupCo, a fast-growing tech startup, recently launched their first product - a fitness tracking application. They've been using AWS for three months, initially setting up their infrastructure quickly to meet launch deadlines.
 
 Now that their product is live, they need to address their cloud security fundamentals.  The company has 10 employees who all currently share the AWS root account credentials to access and manage their cloud resources.
 
 This practice started when they were moving quickly to launch, but now their CTO recognizes the security risks this poses.
-
 
 Current Setup:
 
@@ -26,7 +25,6 @@ Current Setup:
 - No separate permissions for different teams
 - No MFA or password policies
 - AWS credentials shared via team chat
-
 
 Current Infrastructure:
 
