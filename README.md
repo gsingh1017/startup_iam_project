@@ -47,7 +47,7 @@ This practice started when they were moving quickly to launch, but now their CTO
     - Systems Manager access
     - RDS management
 
-3. 1 Finance:
+3. Finance:
 
     - 1 Finance Manager
     - Cost Explorer
